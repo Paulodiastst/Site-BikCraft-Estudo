@@ -30,12 +30,12 @@
 
 		<section class="introducao-interna interna_portfolio">
 		<div class="container">
-			<h1>Portfólio</h1>
-			<p>Conheça os projetos que amamos mostra</p>		
+			<h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+			<p data-anime="400" class="fadeInDown">Conheça os projetos que amamos mostra</p>		
 		</div>
 		</section>
 
-		<section class="container" data-slide="quote">
+		<section class="container fadeInDown" data-slide="quote" data-anime="1200">
 			<blockquote class="quote_clientes">
 				<p>"Pedalar sempre foi a minha paixão, o que o pessoal da Baikcraft
 					fez foi intensificar o meu amor por esta atividade. Recomendo à
@@ -57,10 +57,15 @@
 		</section>
 
 		<section class="portfolio">
-			<div class="container">				
+			<div class="container" data-slide="portfolio">				
 				<ul class="portfolio_lista">
 					<li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta Retrô"></li>
 					<li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta Passeio"></li>
+					<li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta Esporte"></li>
+				</ul>
+				<ul class="portfolio_lista">
+					<li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta Passeio"></li>
+					<li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta Retrô"></li>					
 					<li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta Esporte"></li>
 				</ul>				
 			</div>
@@ -107,9 +112,10 @@
 				</div>
 			</div>
 		</footer>
-
+			<!-- JavaScript -->
+		<script src="./js/simple-anime.js"></script>	 
 		<script src="./js/simple-slide.js"></script>
 		<script src="./js/script.js"></script>
-
+		 <!-- JavaScript -->
 	</body>
 </html>
